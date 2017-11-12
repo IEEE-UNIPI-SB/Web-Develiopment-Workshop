@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container-fluid{
+	width:100%;
+}
+
+nav{
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 95%; /* Full width */	
+}
+
+nav li a{
+	color:white;
+}
+
+nav li a:hover{
+	background-color:transparent !important;*/
+	color:#91b8f7;
+}
+
+header h1{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 600px;
+}
+
+header img{
+	height: 150px;
+	width: 150px;
+}
+
+header div{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+.sections h4{
+	text-align:center;
+	color:white; 
+}
+
+.sections p {
+	color:#999999;
+	text-align: justify;
+}
+
+.sections button{
+	background-color: #4b8bf2; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sections button:hover{
+	background-color: #91b8f7; /* Green */
+    border: none;
+    color: black;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#quotes img{
+	display: block; 
+	margin:auto;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	margin-top:10%;
+}
+
+#quotes h3{
+	text-align:left;
+	vertical-align:middle;
+	line-height:250px;
+	font-style: italic;
+	color:white;
+	font-size:43px;
+}
+
+#quotes{
+	-webkit-box-shadow: inset 10px 10px 37px -4px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 10px 10px 37px -4px rgba(0,0,0,0.3);
+	box-shadow: inset 10px 10px 37px -4px rgba(0,0,0,0.3);
+}
+
+footer div{
+		padding-top:50px;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer h5{
+	color:white;
+	font-weight:bold;
+}
+
+footer li{
+	color:#999999;
+	vertical-align:middle;
+}
+
+.social-media li{
+	font-size:25px;
+	display: inline;
+	padding-right:10px;
+}
